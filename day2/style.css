@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    border: 2.5px solid pink;
+}
+
+.container > * {
+    padding: 1rem;
+}
+
+.header, .footer {
+    text-align: center;
+    border: 1px solid black
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-content article {
+    flex: 1 1 350px;
+    text-align:  center;
+    border: 1px solid black;
+}
+
+.main-content .sidebar {
+    flex: 1 1 150px;
+    text-align:  center;
+    border: 1px solid black;
+}
