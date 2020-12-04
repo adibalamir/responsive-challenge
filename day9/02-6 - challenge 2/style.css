@@ -126,3 +126,9 @@ section {
 .h2-emph {
     color: #87629A;
 }
+
+@media (max-width: 1024px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
