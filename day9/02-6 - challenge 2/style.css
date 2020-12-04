@@ -31,6 +31,10 @@ h1 {
     margin-top: 0;
 }
 
+p {
+    line-height: 1.75;
+}
+
 .container {
     width: 80%;
     max-width: 1100px;
@@ -88,4 +92,37 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-sidebar {
+    background-color: #136C72;
+    color: white;
+}
+
+.m1 {
+    margin: 1em
+}
+
+.m2 {
+    margin: 2em;
+}
+
+.p1 {
+    padding: 1em;
+}
+
+.p2 {
+    padding: 2em;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.h2-emph {
+    color: #87629A;
 }
