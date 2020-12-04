@@ -22,6 +22,10 @@ body {
     font-size: 1.3rem;
 }
 
+section {
+    padding: 0;
+}
+
 img {
     max-width: 100%;
 }
