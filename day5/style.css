@@ -4,31 +4,48 @@
 
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: Roboto, sans-serif;
+    font-size:0.9rem;
 }
 
 .container {
-    width: 100%;
     background: #23424a;
-    color: white;
-    padding: 50px 30px;
-    font-size: 21px;
-}
+    color: #ffffff;
+    width: 100%;
+    padding: 100px 0;
+  }
 
 h1 {
-    font-size: 48px;
     font-weight: bold;
+    font-size: 2rem;
 }
 
-a {
+p {
+    margin-bottom: 2em;
+    line-height: 1.5;
+}
+
+.btn {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    color: #23424a;
     background: #38CFD9;
     border-radius: 30px;
-    padding: 1rem 3rem;
+    padding: 0.8rem 1.3rem;
+    display: inline-block;
+}
+
+.btn:hover, .btn:focus {
+    opacity: 0.75;
 }
 
 .intro-content {
-    width: 50%;
+    width: 80%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.intro__text {
+    width: 60%;
 }
