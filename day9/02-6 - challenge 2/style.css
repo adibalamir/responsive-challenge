@@ -45,6 +45,10 @@ p {
     margin: 0 auto;
 }
 
+.main {
+    margin-top: 2em;
+}
+
 .row {
     /* display: flex => flex container */
     display: flex;
